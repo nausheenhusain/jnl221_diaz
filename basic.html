@@ -1,0 +1,144 @@
+<!-- Complete this worksheet in html and css. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on html tags and css. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+         
+        h1 {
+            color: rosybrown;
+         }
+        p {
+            color: grey;
+            font-size: 16px;
+            font-family: 'Open Sans', serif;
+            width: 50%;
+        }
+        #quote {
+            color: grey;
+            font-style: italic;
+            border: solid lightblue; 2px;
+        }
+        #book
+            color: grey
+
+        #bargraph {
+            border: 1px solid gray;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 25%;
+        }
+        .bar_label {
+            color: red;
+        }
+        #longest {
+            width: 500px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #longer {
+            width: 200px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #long {
+            width: 25px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <h1>A little bit about me!</h1>
+    
+        <h2>My Intro</h2>
+        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <!-- Tags to use: <p>, <strong>, <i> -->
+        <p><strong>My name is <i>Madyson Diaz</i>. My friends and family call me Mads or Maddy. I'm from Eastchester, New York, I love to perform - singing and dancing included - and to ride horses. I'm studying Broadcast and Digital Journalism at Syracuse University. My parents are Patrice Gordon and John Diaz. My community at school is Groovestand Acapella and First Year Players (FYP).</strong> </p>
+
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+        <p> Instagram:<a href="https://www.instagram.com/madysondiazz/">madysondiazz</a> <br>Snapchat:<a href="https://t.snapchat.com/9hjcRABJ">madysonsdiaz</a></p>
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
+        <p>My text is gray.</p>
+
+
+        <h2>My favorite meme</h2>
+        <img src="large_wink.png">
+        <!-- Include: "large_wink.png" as an image -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+
+    
+        <h2>Why I'm a great student</h2>
+        <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+        <ul>
+            <li>I am a very determined person, which makes me a hard worker when it comes to school work.</li>
+            <li>I know what I am capable of, and therefore I always strive to meet my goals.</li>
+            <li>I love working with and collaberating with others.</li>
+        </ul>
+
+    
+        <h2>Top 3 most famous people from my hometown</h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+        <ol>
+            <li> <a href="https://en.wikipedia.org/wiki/Noah_Schnapp"> Noah Schnapp</a> (grew up in my county)</li>
+            <li> <a href="https://en.wikipedia.org/wiki/Tyler_James_Williams"> Tyler James Williams</a> (also grew up in my county)</li>
+            <li><a href="https://en.wikipedia.org/wiki/Ashley_Williams_(actress)#:~:text=Williams%20was%20born%20in%20Westchester,School%20in%20Rye%2C%20New%20York."> Ashley Williams</a> (also grew up in my county)</li>
+        </ol>
+
+
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+        <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+        <p>I loved college the instant I arrived<br> I thought my classes were super cool<br> I even joined an acapella group <br> But I hadn't found my group of friends<br> It wasn't till I got paired up with two acquaintances<br> With the task of creating a short ficition film <br> That I found my people <br> And then I joined First Year Players<br> Now my group of people has expanded in the best way<br> I love college
+    
+        <h2>This is one of my favorite quotes</h2>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+        <h3>Harry Potter</h3>
+            <p id="quote"> "Happiness can be found, even in the darkest of times, if only one remembers to turn on the light." - Albus Dumbledore </p>
+
+
+        <h2>These are more of my favorite books</h2>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+        <ul>
+            <li class="book"> Renegade</li>
+            <li class="book"> An Ember in the Ashes</li>
+            <li class="book"> Crescent City: House of Earth and Blood</li>
+        </ul>
+
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+        <div id="bargraph">
+            <h4>Are You Coming to See Pippin April 13th, 14th or 15th?</h4>
+            <p class="bar_label">Yes</p>
+            <div id="longest"></div>
+            <p class="bar_label">I'm working on it</p>
+            <div id="longer"></div>
+            <p class="bar_label">No, I am a loser</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
